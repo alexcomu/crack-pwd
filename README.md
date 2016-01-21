@@ -1,26 +1,18 @@
-  /$$$$$$  /$$                 /$$ /$$                                /$$$$$$ 
- /$$__  $$| $$                | $$| $$                               /$$__  $$
-| $$  \__/| $$$$$$$   /$$$$$$ | $$| $$  /$$$$$$  /$$$$$$$   /$$$$$$ |__/  \ $$
-| $$      | $$__  $$ |____  $$| $$| $$ /$$__  $$| $$__  $$ /$$__  $$   /$$$$$/
-| $$      | $$  \ $$  /$$$$$$$| $$| $$| $$$$$$$$| $$  \ $$| $$  \ $$  |___  $$
-| $$    $$| $$  | $$ /$$__  $$| $$| $$| $$_____/| $$  | $$| $$  | $$ /$$  \ $$
-|  $$$$$$/| $$  | $$|  $$$$$$$| $$| $$|  $$$$$$$| $$  | $$|  $$$$$$$|  $$$$$$/
- \______/ |__/  |__/ \_______/|__/|__/ \_______/|__/  |__/ \____  $$ \______/ 
-                                                           /$$  \ $$          
-                                                          |  $$$$$$/          
-                                                           \______/           
-
 Challenge 3 - Peano Quest.
 
-How To use the script:
+#How To.
+
+2 params:
+	* username 
+	* pwd
+
+Example of usage:
+	*python SCRIPT_NAME USERNAME PWD
 
 
-python SCRIPT_NAME USERNAME PWD
-
-
-Return 
-  CORRECT if pwd is right
-  ERROR   if pwd is wrong
+#Return 
+  *CORRECT if pwd is right
+  *ERROR   if pwd is wrong
 
 If PWD is correct go to:
 http://194.116.76.60/PWD
