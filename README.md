@@ -13,10 +13,10 @@ Example of usage::
 
 
 ##Return 
+
 Example of returns::
 
   $ CORRECT if pwd is right
-
   $ ERROR   if pwd is wrong
 
 If PWD is correct go to::
