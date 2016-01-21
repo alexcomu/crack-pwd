@@ -23,6 +23,6 @@ Example of returns:
 
 If PWD is correct go to:
 
-	$http://194.116.76.60/PWD
+	$ http://194.116.76.60/PWD
 
 Attention, use clear PWD not hashed.
