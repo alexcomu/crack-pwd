@@ -1,25 +1,27 @@
-Challenge 3 - Peano Quest.
+#Challenge 3 - Peano Quest.
 
-#How To.
+Check page http://194.116.76.60/challeng3.html for more information.
 
-2 params::
+##How To
+
+2 input params:
 
 	$ username 
 	$ pwd
 
-Example of usage::
+Example of usage:
 
 	$ python SCRIPT_NAME USERNAME PWD
 
 
 ##Return 
 
-Example of returns::
+Example of returns:
 
-  $ CORRECT if pwd is right
-  $ ERROR   if pwd is wrong
+  	$ CORRECT if pwd is right
+ 	$ ERROR   if pwd is wrong
 
-If PWD is correct go to::
+If PWD is correct go to:
 
 	$http://194.116.76.60/PWD
 
