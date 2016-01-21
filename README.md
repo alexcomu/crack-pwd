@@ -2,19 +2,25 @@ Challenge 3 - Peano Quest.
 
 #How To.
 
-2 params:
-	* username 
-	* pwd
+2 params::
 
-Example of usage:
-	*python SCRIPT_NAME USERNAME PWD
+	$ username 
+	$ pwd
+
+Example of usage::
+
+	$ python SCRIPT_NAME USERNAME PWD
 
 
-#Return 
-  *CORRECT if pwd is right
-  *ERROR   if pwd is wrong
+##Return 
+Example of returns::
 
-If PWD is correct go to:
-http://194.116.76.60/PWD
+  $ CORRECT if pwd is right
+
+  $ ERROR   if pwd is wrong
+
+If PWD is correct go to::
+
+	$http://194.116.76.60/PWD
 
 Attention, use clear PWD not hashed.
