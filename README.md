@@ -18,8 +18,8 @@ Example of usage:
 
 Example of returns:
 
-  	$ CORRECT if pwd is right
- 	$ ERROR   if pwd is wrong
+  	$ True    if pwd is right
+ 	$ False   if pwd is wrong
 
 If PWD is correct go to:
 

@@ -7,8 +7,8 @@ How To use:
 python SCRIPT_NAME USERNAME PWD
 
 Return 
-  CORRECT if pwd is right
-  ERROR   if pwd is wrong
+  True    if pwd is right
+  False   if pwd is wrong
 
 If PWD is correct go to:
 http://194.116.76.60/PWD
@@ -31,17 +31,14 @@ def process(username, password):
       #check hashed password
       hashed_pwd = sha256()
       hashed_pwd.update(password)
-      if hashed_pwd.hexdigest() == myTable[name]:
-        print "CORRECT"
-      else:
-        print "ERROR"
+      return hashed_pwd.hexdigest() == myTable[name]
 
 def main():
   if len(sys.argv) != 3:
     print '\nWrong usage!\nExample: python script.py username password\n'
     sys.exit(1)
 
-  process(sys.argv[1], sys.argv[2])
+  print process(sys.argv[1], sys.argv[2])
 
 
 if __name__ == '__main__':
